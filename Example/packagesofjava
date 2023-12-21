@@ -1,0 +1,20 @@
+here we are discussing about package concept which means creatinng folder structure to store our files.which helps for easy understanding to outsiders who ever wants to access our project.pacakges can be created using package keyword eg: package name; later we have to move the classes into the package.
+In main method we have to import the classes of package using keyword called as eg: import packagename.classname; inorder to access its methods in the main method after object creation.
+we have to import every class of package at the time of object creation or simply we use like import packagename.*; here * represents evry class of the package(folder) is to be imported.
+The package concept is used just because of to specify the structure when ever we build projects. it is the only dignified manner to organize the application. 
+we can also create files into folder and then folder in folder also the entire thing called as package itself.
+Every class is belongs to some package like for example System.out ...line  System itself belongs to a package called java.lang.System; which is default by java platform even if we not import them.
+In general we use "/" as to seperate the folder but in java we use "." to differentiate between folders.
+we use "*" to import all the class files which doesnot immport all the folders eg: java.lang.name; here we canot use java. * a it doesnot import all the folders. it only import all the files.
+
+
+here we are also discussing about the access modifiers concept.
+                                        private             protected                   public              default
+same class                              yes                 yes                         yes                 yes
+same package sub class                  no                  yes                         yes                 yes
+same package non sub class              no                  yes                         yes                 yes
+different package having sub class      no                  yes                         yes                 no
+different package non sub class         no                  no                          yes                 no
+ 
+ try to make classes public , actually for every file there should be one public class not more than that.
+ instance variables as private.
